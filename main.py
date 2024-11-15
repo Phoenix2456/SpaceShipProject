@@ -104,7 +104,10 @@ def main():
                 print(f"Bay {bay['bay_id']}: {ship['ship_name']} - {ship['arrival_time']} to {ship['departure_time']}")
                 print()
                 print()
+
 print()
+print()
+
 
 
 
