@@ -102,6 +102,7 @@ def main():
         for ship in db.incoming_ships:
             if bay['size'] == ship['size']:
                 print(f"Bay {bay['bay_id']}: {ship['ship_name']} - {ship['arrival_time']} to {ship['departure_time']}")
+                print()
 
 
     # TODO: Implement the docking scheduler logic here
